@@ -2,9 +2,9 @@
 body{
     background-color: rgb(34, 34, 34);
     color: #d2d2e0;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
   }
   p,h4,h5,h6{
     color: #ffffff;
@@ -36,4 +36,24 @@ a.link-card:hover {
   color: inherit;
   text-decoration: none;
 
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #623997;
 }
