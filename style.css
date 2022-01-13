@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: #d2d2e0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+  p,h4,h5,h6{
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .cen{
+    text-align: center;
+    align-content: center;
+    justify-content: center;  
+  }
+
+  .flex-item {
+    justify-content: center;
+  }
+  .card {
+    margin: 0 auto;
+    float: none;  
+    margin-bottom: 10px;
+}
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+a.link-card,
+a.link-card:hover {
+  color: inherit;
+  text-decoration: none;
+
+}
